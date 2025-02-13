@@ -2,7 +2,7 @@ oh-my-posh init pwsh | Invoke-Expression
 Set-PSReadLineOption -PredictionViewStyle ListView
 
 # Import Terminal Icons
-# Import-Module -Name Terminal-Icons
+Import-Module -Name Terminal-Icons
 
 # Alias
 Set-Alias ll ls
